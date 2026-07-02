@@ -5,7 +5,7 @@ void main() {
   testWidgets('shows login screen', (WidgetTester tester) async {
     await tester.pumpWidget(const SchoolSiteTrackerApp());
 
-    expect(find.text('School Site Tracker'), findsOneWidget);
+    expect(find.text('Ariha Infra Site Tracker'), findsOneWidget);
     expect(find.text('Login'), findsWidgets);
     expect(find.text('Register'), findsOneWidget);
     expect(find.text('Forgot'), findsOneWidget);
